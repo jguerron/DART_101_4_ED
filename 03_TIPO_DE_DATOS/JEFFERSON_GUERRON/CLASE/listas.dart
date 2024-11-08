@@ -25,4 +25,19 @@ void main() {
 
   //Posiciones en las listas
   list[3] = 2;
+
+  // Map -ForEach
+  final lista2 = list.map((value){
+    return value +1;
+  }
+  );
+  print (lista2);
+
+  // ForEach
+list.forEach((value){
+   print (value+1);
+  }
+  );
+  
+
 }
