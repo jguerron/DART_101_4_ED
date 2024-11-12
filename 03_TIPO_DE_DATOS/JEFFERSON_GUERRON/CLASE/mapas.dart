@@ -86,6 +86,6 @@ Map<String, dynamic> producto2 ={
 List<Map<String,dynamic>> productos =[
   producto,
   producto2,
-]
+];
 
 }
